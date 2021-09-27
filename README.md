@@ -1,1 +1,3 @@
 # Yet-another-hangman-game
+This is my attempt to write hangman code. The rules are simple, word is being randomly chosen from a list. Then, word is converted to underscore marks by using for loop.
+Whole game body is put in two while loops, outer one stands for the game itself, amount of lives left, choosing random word and so on, and the inner while loop stands for single play, so guessing letters, guessing word and losing lives. When player loses all lives, program moves to the outer while loop and asks if player wants to play again, if the answer is negative, program ends by breaking from all loops.
